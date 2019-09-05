@@ -1,0 +1,72 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Simple constellations.\n\nMore configurations to come, such as...\n- Custom colour\n- Custom speed\n- Custom number of dots, etc.\n\nFeedback always appreciated.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+            "starcolor" :
+            {
+                "text" : "Star Color",
+                "type" : "color",
+                "value" : "1 1 1" 
+            },
+            "starsize" :
+            {
+                "text" : "Star Size",
+                "type" : "slider",
+                "value" : "3",
+                "min" : "1",
+                "max" : "10",
+                "editable" : true 
+            },
+            "nstars" :
+            {
+                "text" : "Number of Stars",
+                "type" : "slider",
+                "value" : "50",
+                "min" : "2",
+                "max" : "300",
+                "editable" : true 
+            },
+            "bgcolor" :
+            {
+                "text" : "Background Color",
+                "type" : "color",
+                "value" : "0.2 0.2 0.2" 
+            },
+            "speed" :
+            {
+                "text" : "Speed",
+                "type" : "slider",
+                "value" : "5",
+                "min" : "1",
+                "max" : "10",
+                "editable" : true 
+            },
+            "linelength" :
+            {
+                "text" : "Min Distance for Lines",
+                "type" : "slider",
+                "value" : "150",
+                "min" : "1",
+                "max" : "300",
+                "editable" : true 
+            },
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.7529411764705882 0.7529411764705882 0.7529411764705882"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "CGI" ],
+	"title" : "Constellations",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : "1854300589"
+}
